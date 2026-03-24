@@ -10,6 +10,8 @@ jobs:
         steps:
             - name: learning
               run: "echo hello how are you"
+            - name: list env
+              run: printenv
                 # Add your commands to run the exercise1 script here
                 # For example, if it's a Python script:
                 # python exercise1.py
