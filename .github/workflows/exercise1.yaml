@@ -1,0 +1,15 @@
+---
+name: exercise1
+on: 
+    push:
+        branches: 
+            - main 
+jobs:
+    learning:
+        runs-on: ubuntu-latest
+        steps:
+            - name: learning
+              run: "echo hello how are you"
+                # Add your commands to run the exercise1 script here
+                # For example, if it's a Python script:
+                # python exercise1.py
